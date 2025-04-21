@@ -4,7 +4,7 @@
 
 Don’t let your friends dump git logs into changelogs™
 
-This repository generates https://keepachangelog.com/.
+This repository generates <https://keepachangelog.com/>.
 
 ## Development
 
@@ -18,16 +18,16 @@ This repository generates https://keepachangelog.com/.
 - `git clone https://github.com/olivierlacan/keep-a-changelog.git`
 - `cd keep-a-changelog`
 - `bundle install`
-- `bin/rake serve` starts a local development server at http://localhost:4567
+- `bin/rake serve` starts a local development server at <http://localhost:4567>
   which will reload with any local file changes
-- `bin/rake build` runs middleman build with `--verbose` flag so build errors are 
+- `bin/rake build` runs middleman build with `--verbose` flag so build errors are
   logged for easier debugging
 
 ### Deployment
 
-- `bin/rake clean` can clean a corrupted `build/` directory in 
+- `bin/rake clean` can clean a corrupted `build/` directory in
   case `publish` failed
-- `bin/rake deploy` cleans, builds and pushes to the `gh-pages` branch on GitHub so 
+- `bin/rake deploy` cleans, builds and pushes to the `gh-pages` branch on GitHub so
   the site is deployed to keepachangelog.com
 
 ### Translations
